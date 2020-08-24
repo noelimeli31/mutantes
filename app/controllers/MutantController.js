@@ -7,23 +7,17 @@ const { ObjectId } = require('mongodb');
 const { Nonsquarematrix } = require('../errorLog/error');
 
 const mutantSequence = ['AAAA', 'TTTT', 'CCCC', 'GGGG'];//secuencia de al menos longitud 4 valida
-const valid = /^ATCG/;//falta esta validacion
+const valid = /[^ATCG,"]/;//expresion para validar solo el ingreso de las letras permitidas
 
 async function isMutantController(req, res) {
     const adn = req.body.adn;
 
     //inicio validaciones 
-    // if ((valid.test(adn))) {
-    //     res.status(errors['validSequence'].status).json({ result: errors['validSequence'].message });
-    //     return;
-    // };
-    
-    if ((adn.find(Number))) {
+    if ((valid.test(adn))) {
         res.status(errors['validSequence'].status).json({ result: errors['validSequence'].message });
         return;
     };
     
-
     if (adn.length < mutantSequence.length) {
         res.status(errors['Nonsquarematrix'].status).json({ result: errors['Nonsquarematrix'].message });
         return;

@@ -2,9 +2,10 @@
   "name": "MUTANTES-API-MELI",
   "version": "1.0.0",
   "description": "Examen Mercado Libre - Mutantes",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js",
+    "start": "node app/src/index.js",
+    "dev": "nodemon index.js",
     "test": "mocha --recursive --timeout 10000 --exit"
   },
   "keywords": [],
