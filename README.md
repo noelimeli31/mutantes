@@ -101,7 +101,7 @@ ___
 
     •	Express
 
-3)	Tener instalado una instancia de MondoDB localmente para poder acceder a la base de datos o si se quiere utilizar una instancia en la nube, reemplazar la cadena de conexión     que nos brinde el servicio.
+3)	Tener instalado una instancia de MongoDB localmente para poder acceder a la base de datos o si se quiere utilizar una instancia en la nube, reemplazar la cadena de conexión     que nos brinde el servicio.
 
 4)	Iniciar la aplicación desde la clase principal del proyecto o ejecutar el siguiente comando en la consola:
 
@@ -159,7 +159,11 @@ ___
                   count_human_dna: 2,
                   ratio: 1.5
               }
+              
+              
+    •	La base de datos hosteada se encuentra en la siguiente dirección de MongoDB Atlas: https://cloud.mongodb.com/v2/5f42e75979374520db8b3129#clusters              
 
 6)	Test automáticos:
     Se realizaron los test con Mocha y Chai, utilizando el método describe, pero los mismos no compilaron. Se anexa de igual manera los componentes. 
+    Se anexa en la carpeta test, pruebas de cargas masivas que se realizaron con la herramienta Runner de POSTMAN.
 
