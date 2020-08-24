@@ -70,6 +70,7 @@ ___
 1)	Se crea un programa en node js donde se implementa un algoritmo de búsqueda sencillo.
 
     Se realizan todas las validaciones correspondientes sobre el JSON recibido, tras la petición hacia el servidor antes de realizar la búsqueda pertinente evitando así errores     de lectura. Por ejemplo:
+    
     •	Que del JSON recibido solo contenga las letras válidas del ADN (A, T, C Y G)
 
     •	Que el string que se recibe tenga un mínimo de 4 secuencias de ADN de 4 letras para que la matriz sea de NxN.
@@ -106,9 +107,9 @@ ___
 
     Una vez iniciado utilizar las siguientes URL para probar la API de manera local:
 
-    •	POST:   **http//:localhost:3030/mutant**
+    •	POST:   **http//:localhost:3000/mutant**
 
-    •	GET:    **http//:localhost:3030/stats**
+    •	GET:    **http//:localhost:3000/stats**
 
 5)	Ejecución de los servicios **/mutants** y **/stats** hosteados:
 
