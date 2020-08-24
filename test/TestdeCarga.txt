@@ -1,0 +1,50 @@
+[
+{
+"value1": "TTGCGA",
+"value2": "CAGTGC", 
+"value3": "TTATGT", 
+"value4": "AGAAGG", 
+"value5": "CCTCTA",
+"value6": "TCACTG"
+},
+{
+"value1": "TTTTGA",
+"value2": "ATGTGC", 
+"value3": "TTATGT", 
+"value4": "AGTTGG", 
+"value5": "AGATGG",
+"value6": "CCCCTA"
+},
+{
+"value1": "AATGGA",
+"value2": "AATTGC", 
+"value3": "TTGTGG", 
+"value4": "AGAAGG", 
+"value5": "CCTCTA",
+"value6": "CGGTAG"
+},
+{
+"value1": "1234",
+"value2": "CAGTGC", 
+"value3": "TTATGT", 
+"value4": "AGAAGG", 
+"value5": "CCTCTA",
+"value6": "TCACTG"
+},
+{
+"value1": "AJAAA",
+"value2": "ATCCGH", 
+"value3": "CAYAGC", 
+"value4": "AGAAGG", 
+"value5": "CCTCTA",
+"value6": "TCACTG"
+},
+{
+"value1": "TTGCGA",
+"value2": "CAGTGC", 
+"value3": "TTATGT", 
+"value4": "AGAAGG", 
+"value5": "CCTCTA",
+"value6": "TCACTG"
+}
+]
