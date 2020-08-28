@@ -10,7 +10,9 @@ Se recibe como parámetro un array de Strings que representan cada fila de una t
 
 Se detecta si es un humano o mutante, si se encuentra más de una secuencia de cuatro letras iguales, de forma oblicua, horizontal o vertical. 
 Ejemplo (Caso mutante): 
+
 String[] dna = {"ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"};
+
 En este caso el llamado a la función isMutant(dna) devuelve “true”. 
 
 ___
